@@ -13,9 +13,10 @@ body{
 .head{
     background-color: #5FC0CD;
     padding: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
     color: white;
     overflow: hidden;
-    text-align: center;
     position: fixed;
     top: 0;
     right: 0;
@@ -25,61 +26,53 @@ body{
 .head1{
     /*float: left;*/
     position: absolute;
-    top: 1.7rem;
+    font-size: 2rem;
 
 }
 .head2{
     /*float: left;
     margin-left: 40%;*/
-    font-size: 1.5rem;
+    font-size: 3rem;
+
 }
 .head3 {
     /*float: right;*/
     position: absolute;
-    top: 1.7rem;
     right: 1.5rem;
+    top:1.5rem;
+    font-size: 2rem;
+
 }
 form{
     background-color: white;
-    padding: 1rem;
+    padding: 1.5rem;
+    line-height: 3rem;
     margin-top: 6rem;
-    text-align: center;
     overflow: hidden;
 
 }
 .ftop{
     margin-top: 1.5rem;
 }
-.img1{
+img{
+    display: inline;
     float: left;
-    margin-top: 0.45rem;
-    margin-left: 0.5rem;
-}
-.img2{
-    float: left;
-    margin-left: 1.5rem;
-}
-[type=text]{
-    border: 0;
-    width: 14rem;
-    font-size:2rem;
-    padding: 1rem;
-    float: left;
-    margin-top: 0.1rem;
-    margin-left: 0.5rem;
-    outline: none;
-}
-[type=password]{
-    border: 0;
-    width: 14rem;
-    font-size:2rem;
-    padding: 1rem;
-    float: left;
-    margin-top: 0.1rem;
-    margin-left: 0.5rem;
-    outline: none;
+    /*position: absolute;*/
+    margin-top:0.22rem;
+
+
 }
 
+input{
+    border: none;
+    border-left: 0.1rem solid #EFF0F4;
+    width: 14rem;
+    font-size:2rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    outline: none;
+
+}
 .foot{
     background-color: #5FC0CD;
     text-align: center;
@@ -92,7 +85,12 @@ button{
     background-color: #5FC0CD;
     color: white;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-top: 4rem;
-
+}
+p{
+    float: right;
+    color: #8BCDD7;
+    margin-top: 1rem;
+    font-size: medium;
 }
